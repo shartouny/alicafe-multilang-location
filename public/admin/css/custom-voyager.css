@@ -1,0 +1,57 @@
+.fade-toggle-menu {
+  margin: 1rem 0;
+  cursor: pointer;
+}
+.fade-toggle-menu:first-of-type .content {
+  display: block;
+}
+.fade-toggle-menu > .row {
+  background-color: #ebedef;
+}
+.fade-toggle-menu h3 {
+  text-transform: capitalize;
+  margin-bottom: 0.5rem;
+}
+.fade-toggle-menu ul {
+  list-style-type: none;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+.fade-toggle-menu .toggle-icon {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 15px;
+}
+
+.bg-light-gray {
+  background-color: #ebedef;
+}
+
+.c-header.c-header-fixed {
+  top: 0px;
+}
+
+.click-file {
+  cursor: pointer;
+}
+
+div.dataTables_wrapper {
+  overflow: hidden;
+}
+div.dataTables_wrapper div.dataTables_length select {
+  width: 100% !important;
+}
+
+.page-content {
+  padding: 15px !important;
+}
+
+.mt-ninput {
+  margin-top: -1.8rem !important;
+}
+
+.d-none {
+  display: none;
+}

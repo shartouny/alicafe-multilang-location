@@ -1,0 +1,61 @@
+// Here you can add other styles
+// @import '~bootstrap/scss/bootstrap';
+// @import '~dataTables.net-bs4/css/dataTables.bootstrap4';
+.fade-toggle-menu {
+    .content {
+        // display: none;
+    }
+    &:first-of-type {
+        .content {
+            display: block;
+        }
+    }
+    >.row {
+        background-color: #ebedef;
+    }
+    margin: 1rem 0;
+    cursor: pointer;
+    h3 {
+        text-transform: capitalize;
+        margin-bottom: .5rem;
+    }
+    ul {
+        list-style-type: none;
+        padding-inline-start: 0;
+        li {}
+    }
+    .toggle-icon {
+        // width: 30px;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 15px;
+    }
+}
+.bg-light-gray {
+    background-color: #ebedef;
+}
+.c-header.c-header-fixed {
+    top: 0px;
+}
+.click-file {
+    cursor: pointer;
+}
+div.dataTables_wrapper {
+    overflow: hidden;
+    div.dataTables_length {
+        select {
+            width: 100% !important;
+        }
+    }
+}
+.page-content {
+    padding: 15px !important;
+}
+.mt-ninput {
+    margin-top: -1.8rem !important;
+}
+.d-none {
+    display: none;
+}
